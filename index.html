@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../flex-box/fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/all.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" media="screen and (max-width:768px)" href="./css/mobile.css">
+        <link rel="stylesheet" media="screen and (min-width:1100px)" href="./css/widescreen.css">
+        <title>Flex-Box</title>
+    </head>
+    <body id="home">
+        <!-- NAVBAR -->
+       <nav id="navbar">
+            <h1 class="logo">
+                <span class="text-primary">
+                    <i class="fas fa-book-open"></i>Edge
+                </span>Ledger
+            </h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#what">What</a></li>
+                <li><a href="#who">Who</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+       </nav>
+       <!-- Header:showCase -->
+       <header id="showcase">
+           <div class="showcase-content">
+               <h1 class="l-heading">
+                   The Sky Is The Limit
+               </h1>
+               <p class="lead">
+                   Some text in here ....
+               </p>
+               <a href="#" class="btn">READ MORE</a>
+           </div>
+       </header>
+       <!-- Section: What we do -->
+       <section id="what" class="bg-light py-1">
+           <div class="container">
+               <h2 class="m-heading text-center">
+                   <span class="text-primary">What</span>
+                   We Do
+               </h2>
+               <div class="items">
+                   <div class="item">
+                       <i class="fas fa-university fa-2x"></i>
+                       <div>
+                           <h3>Some text of title h3</h3>
+                           <p>Some text in here</p>
+                       </div>
+                   </div>
+                   <div class="item">
+                    <i class="fas fa-book-reader fa-2x"></i>
+                    <div>
+                        <h3>Some text of title h3</h3>
+                        <p>Some text in here</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fas fa-pencil-alt fa-2x"></i>
+                    <div>
+                        <h3>Some text of title h3</h3>
+                        <p>Some text in here</p>
+                    </div>
+                </div>
+               </div>
+           </div>
+       </section>
+       <!-- Section: Who we are -->
+       <section id="who">
+           <div class="who-img"></div>
+           <div class="who-text bg-dark p-2">
+                <h2 class="m-heading">
+                    <span class="text-primary">Who</span>
+                    We Are
+                </h2>
+                <p>Some text in here</p>
+                <h3>Our Team</h3> 
+                <ul class="list">
+                    <li>First</li>
+                    <li>Second</li>
+                    <li>Third</li>
+                    <li>Fourth</li>
+                </ul>
+           </div>
+       </section>
+       <!-- Section: Client -->
+       <section id="Client" class="py-1">
+        <div class="container">
+            <h2 class="m-heading text-center">
+                <span class="text-primary">Our</span>
+                Clients
+            </h2>
+            <div class="items">
+                <div><img src="./img/logo.png" alt=""></div>
+                <div><img src="./img/logo.png" alt=""></div>
+                <div><img src="./img/logo.png" alt=""></div>
+                <div><img src="./img/logo.png" alt=""></div>
+                <div><img src="./img/logo.png" alt=""></div>
+            </div>
+        </div>
+       </section>
+       <!-- Section:contact -->
+       <section id="contact">
+           <div class="contact-form bg-primary p-2">
+               <h2 class="m-heading">Contact Us</h2>
+               <p>Some text in here</p>
+               <form>
+                   <div class="form-group">
+                       <label for="name">Name</label>
+                       <input type="text" name="name" id="name" placeholder="Enter your name">
+                   </div>
+                   <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="text" name="phone" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Enter your message" ></textarea>
+                </div>
+                <input type="submit" value="Send" class="btn btn-dark">
+               </form>
+           </div>
+           <div class="map"></div>
+       </section>
+       <footer id="main-footer" class="bg-dark text-center py-1">
+           <div class="container">
+               <p>Copyright &copy 2020, EdgeLedger, All Right</p>
+           </div>
+       </footer>
+
+       <!-- JQuery CDN -->
+        <script
+        src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+        crossorigin="anonymous">
+        </script>
+        <!-- Local JS  -->
+       <script src="./js/main.js"></script>
+       <!-- GG map -->
+       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1uW3oMcA5QbrESWBBue9tPJti_vukNpQ&callback=initMap"
+    async defer></script>
+    </body>
+</html>
